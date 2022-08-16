@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+.reputation
+{
+	width:1150px;
+	height:420px;
+	position:relative;
+	top: 20px;
+}
+.reputation ul li
+{
+	width:200px;
+	height:290px;
+	margin-left:25px;
+	list-style-type:none;
+	float:left;
+	position:relative;
+	overflow: hidden;
+}
+#reputation
+{
+	height:290px;
+	width:1150px;
+	position:relative;
+	overflow: hidden;
+}
+#reputation ul
+{
+	width:2700px;
+	position:absolute;
+}
+.reputation img
+{
+	width:200px;
+	height:290px;
+	border-radius: 10px;
+}
+.reputation-title
+{
+	width:250px;
+	height:70px;
+	line-height:70px;
+	font-size:35px;
+	text-align: center;
+	font-family:方正清刻本悦宋简体;
+	position:relative;
+	bottom:15px;
+}
+.reputation-pic
+{
+	width:25px;
+	height:40px;
+	position:absolute;
+	top:0px;
+	left:250px;
+}
+.reputation-pic img
+{
+	width:25px;
+	height:40px;
+	transform: rotate(180deg);
+}
+.reputation-text
+{
+	width:160px;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	font-size:16px;
+	color:white;
+	font-family:微软雅黑;
+	position:relative;
+	left:50%;
+	margin-left:-80px;
+	transition: all .5s;
+}
+.reputation ul li:hover .reputation-text
+{
+	transform: translate(0px,-80px);
+}

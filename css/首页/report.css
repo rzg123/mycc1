@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+}
+.report
+{
+	position: absolute;
+	width:400px;
+	height:503px;
+	top:30px;
+	right:0px;
+	opacity: 0;
+}
+.report-top
+{
+	width:400px;
+	height:410px;
+	background: url("../../img/background/back1.jpg");
+	position:relative;
+	top:0px;
+}
+.report-title
+{
+	color:white;
+	font-weight:20px;
+	position:relative;
+	width:200px;
+	line-height:90px;
+	font-size: 35px;
+	font-family:方正清刻本悦宋简体;
+	margin-left:15px;
+}
+.report-more
+{
+	width:18px;
+	height:30px;
+	position:absolute;
+	right:15px;
+	top:30px;
+	font-size:30px;
+	background:url("../../img/logo/next.png");
+}
+.report-line
+{
+	width:360px;
+	height:0px;
+	border-top:2px white solid;
+	position:relative;
+	left:15px;
+	opacity: 0.3;
+}
+.report-content ul
+{
+	position:absolute;
+	width: 360px;
+	height:250px;
+	position:absolute;
+	right:20px;
+}
+.report-content ul li
+{
+	list-style-type:none;
+	line-height:46px;
+	font-size:16px;
+	font-family:微软雅黑;
+	margin-top:10px;
+}
+.report-icon
+{
+	width:20px;
+	height:20px;
+	margin-top:13px;
+	margin-right: 10px;
+	display:block;
+	float:left;
+}
+.report-content ul a
+{
+	text-decoration:none;
+	color:white;
+}
+.report-content ul a:hover
+{
+	color:#967c56;
+}
+.rpt-smalltitle
+{
+	width:330px;
+	margin-left:15px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+@keyframes translate2
+{
+	0%
+	{
+		transform: translateX(600px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}

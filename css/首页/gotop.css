@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0px;
+}
+#gotop
+{
+	width:50px;
+	height:80px;
+	text-align: center;
+	position: fixed;
+	right:5px;
+	bottom:340px;
+	display:none;
+}
+#gotop img{
+	width:50px;
+	height:60px;
+}
+#gotop:hover
+{
+	cursor: pointer;
+}

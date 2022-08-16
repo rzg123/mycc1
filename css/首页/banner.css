@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+#banner
+{
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+#banner>img
+{
+	width:100%;
+	transition: all 3s;
+	position:absolute;
+	top:0px;
+}
+#button
+{
+	width:208px;
+	position:absolute;
+	left:50%;
+	margin-left:-84px;
+	bottom:30px;
+}
+#button li
+{
+	list-style-type:none;
+	float:left;
+	margin-left:20px;
+	width:24px;
+	height:31px;
+	background:url(../../img/logo/中国结.png);
+}
+#button .select
+{
+	background:url(../../img/logo/中国结黄.png);
+}
+.banner-background
+{
+	width:100%;
+	position:relative;
+	z-index: -10;
+}
+.banner-background img
+{
+	width:100%;
+	opacity: 0;
+}
+.prev,.next
+{
+	position: absolute;
+	width:100px;
+	height:200px;
+	line-height:200px;
+	text-align: center;
+	top:50%;
+	margin-top:-100px;
+	cursor: pointer;
+	color:#967c56;
+}
+.prev
+{
+	left:0;
+	border-top-right-radius:100px;
+	border-bottom-right-radius:100px;
+}
+.prev span
+{
+	left:0px;
+	font-size: 60px;
+}
+.next
+{
+	right:0;
+	border-top-left-radius:100px;
+	border-bottom-left-radius:100px;
+}
+.next span
+{
+	font-size: 60px;
+}
+.prev:hover
+{
+	
+	background-color:rgba(0,0,0,0.5);
+}
+.next:hover
+{
+	
+	background-color:rgba(0,0,0,0.5);
+}

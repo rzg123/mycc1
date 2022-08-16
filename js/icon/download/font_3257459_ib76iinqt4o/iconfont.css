@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3257459 */
+  src: url('iconfont.woff2?t=1649759891162') format('woff2'),
+       url('iconfont.woff?t=1649759891162') format('woff'),
+       url('iconfont.ttf?t=1649759891162') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiaohua-tubiaoloukong:before {
+  content: "\e606";
+}
+
+.icon-zishahu:before {
+  content: "\e603";
+}
+
+.icon-tubiaozhizuomoban-:before {
+  content: "\e626";
+}
+
+.icon-fengzheng:before {
+  content: "\e61d";
+}
+
+.icon-yinzhang:before {
+  content: "\e63b";
+}
+
+.icon-wanfatubiao-daochu-:before {
+  content: "\e622";
+}
+
+.icon-wanfa-shougong-bianzhicixiu:before {
+  content: "\e633";
+}
+
+.icon-zhiding:before {
+  content: "\e63c";
+}
+
+.icon-denglu-copy:before {
+  content: "\e63a";
+}
+
+.icon-pwd:before {
+  content: "\e652";
+}
+
+.icon-shenfenzhenghaoma:before {
+  content: "\e640";
+}
+
+.icon-youxiang:before {
+  content: "\e616";
+}
+
+.icon-24gl-telephone2:before {
+  content: "\e953";
+}
+
+.icon-yonghuguanli_huaban:before {
+  content: "\e62d";
+}
+

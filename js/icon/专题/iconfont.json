@@ -1,0 +1,37 @@
+{
+  "id": "3407637",
+  "name": "专题",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24892506",
+      "name": "装饰",
+      "font_class": "zhuangshi",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "2344474",
+      "name": "标题装饰-左",
+      "font_class": "biaotizhuangshi-zuo",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "3041065",
+      "name": "标题装饰-左",
+      "font_class": "title-right",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12472422",
+      "name": "装饰图案_r",
+      "font_class": "zhuangshituan_r",
+      "unicode": "e7c8",
+      "unicode_decimal": 59336
+    }
+  ]
+}

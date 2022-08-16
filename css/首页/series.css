@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,div,ul,li,img
+{
+	padding:0;
+	margin:0; 
+	border:0; 
+	list-style:none;
+}
+.seven
+{
+	height:460px;
+	margin-top: 40px;
+	position:relative;
+}
+.inheritance
+{
+	width:75px;
+	height:340px;
+	font-size:40px;
+	font-family:方正清刻本悦宋简体;
+	position:absolute;
+	top:50%;
+	margin-top:-170px;
+	left:90px;
+}
+.border
+{
+	width:95px;
+	height:360px;
+	position:absolute;
+	top:50%;
+	margin-top:-185px;
+	left:80px;
+}
+.border img
+{
+	width:95px;
+	height:360px;
+}
+.series
+{
+	width:850px;
+	height:430px;
+	position:absolute;
+	top:50%;
+	margin-top:-215px;
+	right:30px;
+	overflow:hidden;
+	padding:10px 0 0 10px;
+	opacity: 0;
+}
+.series li
+{
+	width:200px;
+	height:240px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:-60px;
+	cursor:pointer;
+}
+.san
+{
+	margin-left: 105px;
+}
+.wrap
+{
+	height:110px;
+	width: 190px;
+	position:relative;
+	margin:60px auto;
+}
+.common
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	left:0;
+}
+.common:before
+{
+	content:'';
+	position: absolute;
+	width: 190px;
+	height: 220px;
+}
+.left
+{
+	transform: rotate(60deg);
+}
+.left::before
+{
+	transform: rotate(-60deg) translate(48px,-28px);
+}
+.right
+{
+	transform: rotate(-60deg);
+}
+.right::before
+{
+	transform: rotate(60deg) translate(48px,28px);
+	bottom: 0;
+}
+.cixiu
+{
+	background:url(../../img/series/刺绣.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+	filter: blur(5px);
+}
+.ccixiu::before
+{
+	background:url(../../img/series/刺绣.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.jianzhi
+{
+	background:url(../../img/series/剪纸.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.cjianzhi::before
+{
+	background:url(../../img/series/剪纸.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.zisha
+{
+	background:url(../../img/series/紫砂.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.czisha::before
+{
+	background:url(../../img/series/紫砂.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.fengzheng
+{
+	background:url(../../img/series/风筝.png) 50% 50% no-repeat;
+	background-size: auto 290px;
+}
+.cfengzheng::before
+{
+	background:url(../../img/series/风筝.png) 50% 50% no-repeat;
+	background-size: auto 290px;
+}
+.piying
+{
+	background:url(../../img/series/皮影.png) 50% 50% no-repeat;
+	background-size: auto 290px;
+}
+.cpiying::before
+{
+	background:url(../../img/series/皮影.png) 50% 50% no-repeat;
+	background-size: auto 290px;
+}
+.bianzhi
+{
+	background:url(../../img/series/编织.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.cbianzhi::before
+{
+	background:url(../../img/series/编织.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.weidiao
+{
+	background:url(../../img/series/微雕.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}
+.cweidiao::before
+{
+	background:url(../../img/series/微雕.png) 50% 50% no-repeat;
+	background-size: auto 220px;
+}

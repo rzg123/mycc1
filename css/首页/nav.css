@@ -1,0 +1,133 @@
+*{
+	margin:0;
+	padding:0;
+}
+.navi
+{
+	width:100%;
+	height:70px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.4);
+	position:relative;
+	z-index: 1;
+}
+.logo
+{
+	position:absolute;
+	left:20px;
+	top:15px;
+	width:150px;
+	height:40px;
+	z-index:10px;
+}
+.logo img
+{
+	width:150px;
+	height:40px;
+}
+.nav
+{
+	display:table;
+	text-align: center;
+	margin:0 auto;
+}
+.nav li
+{
+	width:90px;
+	line-height:70px;
+	list-style-type:none;
+}
+.nav a
+{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-family:微软雅黑;
+}
+.nav>li
+{
+	float:left;
+}
+.nav>li:hover .t
+{
+	color:#c7a065;
+}
+.nav>li:hover .subnav
+{
+	display:table;
+}
+.nav>li>div
+{
+	width:100%;
+	position:absolute;
+	left:0;
+	background: rgba(134,77,46,0.8);
+}
+.subnav
+{
+	display:none;
+	text-align: center;
+	position: relative;
+}
+.p1
+{
+	left:50%;
+	margin-left: -225px;
+}
+.p2
+{
+	left:50%;
+	margin-left: -360px;
+}
+.p3
+{
+	left:50%;
+}
+.p4
+{
+	left:50%;
+	margin-left: 45px;
+}
+.p5
+{
+	left:50%;
+	margin-left: 135px;
+}
+.subnav .dir
+{
+	width:20px;
+	height:60px;
+}
+.dir img
+{
+	width:20px;
+	height:20px;
+	margin-top:20px;
+}
+.subnav li:hover a
+{
+	color:#c7a065;
+}
+.subnav a
+{
+	font-size:16px;
+}
+.subnav>li
+{
+	float:left;
+}
+.login
+{
+	width:50px;
+	height:60px;
+	line-height: 60px;
+	position: absolute;
+	right:10px;
+	top:5px;
+}
+.login a
+{
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+}

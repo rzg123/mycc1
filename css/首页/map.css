@@ -1,0 +1,261 @@
+*{
+	margin:0;
+	padding:0;
+}
+.connect
+{
+	width:1150px;
+	margin:0 auto;
+	position: relative;
+}
+.china-map
+{
+	width:700px;
+	height:503px;
+	border:3px solid #721919;
+	position: relative;
+	top:30px;
+	opacity: 0;
+}
+.china-map>img
+{
+	width:700px;
+	height:503px;
+	position:absolute;
+}
+.mapbg
+{
+	filter: blur(3px);
+}
+.region
+{
+	position:absolute;
+}
+.dotbor
+{
+	width:50px;
+	height:50px;
+	position:absolute;
+}
+.region dot
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-5px 0 0 -5px;
+	width:10px;
+	height:10px;
+	background:#a2a9b4;
+	border-radius: 50%;
+}
+.region .place
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-12px 0 0 -12px;
+	width:20px;
+	height:20px;
+	border:2px solid #eae6db;
+	border-radius: 50%;
+	opacity: 0.12;
+	box-shadow: 0 0 4px #82878f,0 0 10px #82878f inset;
+	animation:scale 2s ease-out infinite both;
+}
+.region .txt
+{
+	position:absolute;
+	left:50%;
+	margin-left: -15px;
+	top:50%;
+	margin-top: 15px;
+	font-size:14px;
+	color:white;
+	width:30px;
+	text-align: center;
+	line-height: 15px;
+}
+@keyframes scale
+{
+	0%
+	{
+		transform: scale(0);
+		opacity: 1;
+	}
+	100%
+	{
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+.region .place01
+{
+	animation-delay: 0.4s;
+}
+.region .place02
+{
+	animation-delay: 0.8s;
+}
+.region:hover .txt
+{
+	display:none;
+}
+.region:hover .place
+{
+	display:none;
+}
+.region-js
+{
+	top:265px;
+	left:465px;
+}
+.region-shx
+{
+	top:205px;
+	left:375px;
+}
+.region-hn
+{
+	top:345px;
+	left:375px;
+}
+.region-gd
+{
+	top:395px;
+	left:405px;
+}
+.region-sd
+{
+	top:225px;
+	left:435px;
+}
+.region-sx
+{
+	top:250px;
+	left:335px;
+}
+.region-sc
+{
+	top:295px;
+	left:275px;
+}
+.region-zj
+{
+	top:315px;
+	left:465px;
+}
+.region-title
+{
+	width:445px;
+	height:95px;
+	position:absolute;
+	margin-top: 4px;
+	margin-left:-45px;
+}
+.region-title img
+{
+	width:100%;
+	height:95px;
+}
+.region-text
+{
+	width:160px;
+	height:50px;
+	line-height: 50px;
+	font-size:35px;
+	font-family:方正清刻本悦宋简体;
+	position:absolute;
+	margin-top: 20px;
+	left:140px;
+}
+.region-next
+{
+	width:25px;
+	height:40px;
+	position:absolute;
+	margin-top: 25px;
+	left:90px;
+}
+.region-next img
+{
+	width:25px;
+	height:40px;
+}
+.position
+{
+	width:100px;
+	height:50px;
+	position: relative;
+	top:-35px;
+	left:-40px;
+	display:none;
+	z-index: 10;
+}
+.position1
+{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	font-size:15px;
+	text-align: center;
+	color:white;
+	background-color: #9e8d73;
+	border-radius:10px;
+	opacity:0.9;
+}
+.position2
+{
+	width:10px;
+	height: 10px;
+	background-color: #9e8d73;
+	transform: rotate(45deg);
+	position:absolute;
+	bottom: -5px;
+	right:30px;
+	opacity:0.75;
+}
+.region-shx:hover .shx
+{
+	display:block;
+}
+.region-hn:hover .hn
+{
+	display:block;
+}
+.region-js:hover .js
+{
+	display:block;
+}
+.region-gd:hover .gd
+{
+	display:block;
+}
+.region-sd:hover .sd
+{
+	display:block;
+}
+.region-sx:hover .sx
+{
+	display:block;
+}
+.region-sc:hover .sc
+{
+	display:block;
+}
+.region-zj:hover .zj
+{
+	display:block;
+}
+@keyframes translate1
+{
+	0%
+	{
+		transform: translateX(-600px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
