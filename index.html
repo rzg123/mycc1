@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>民艺传承</title>
+		<link rel="stylesheet" href="css/首页/index-nav.css"/>
+		<link rel="stylesheet" href="css/首页/banner.css"/>
+		<link rel="stylesheet" href="css/首页/map.css">
+		<link rel="stylesheet" href="css/首页/report.css"/>
+		<link rel="stylesheet" href="css/首页/indexseries.css"/>
+		<link rel="stylesheet" href="css/首页/culture.css"/>
+		<link rel="stylesheet" href="css/首页/reputation.css"/>
+		<link rel="stylesheet" href="css/首页/footer.css"/>
+		<link rel="stylesheet" href="css/首页/gotop.css"/>
+		<link rel="stylesheet" href="js/icon/download/font_3257459_ib76iinqt4o/iconfont.css"/>
+		<link rel="stylesheet" href="js/icon/上下页/iconfont.css"/>
+		<script type="text/javascript" src="js/首页/banner.js"></script>
+		<script type="text/javascript" src="js/首页/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/首页/series.js"></script>
+		<script type="text/javascript" src="js/首页/animation.js"></script>
+	</head>
+	<body background="img/background/background.png">
+		<div class="navi">
+			<div class="logo">
+				<img src="img/logo/logo小白.png"/>
+			</div>
+			<ul class="nav">
+				<li><a class="t">首页</a></li>
+				<li>
+					<a class="t">资讯</a>
+					<div class="nhidden">
+						<ul class="subnav p1">
+							<li><a href="html/专题/专题浏览.html">专题报道</a></li>
+							<li><a href="#地图">地域分布</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a class="t">技艺</a>
+					<div class="nhidden">
+						<ul class="subnav p2">
+							<li><a href="html/手艺/刺绣.html">刺绣工艺</a></li>
+							<li><a href="html/手艺/剪纸.html">剪纸工艺</a></li>
+							<li><a href="html/手艺/紫砂.html">紫砂工艺</a></li>
+							<li><a href="#">风筝工艺</a></li>
+							<li><a href="#">皮影工艺</a></li>
+							<li><a href="#">编织工艺</a></li>
+							<li><a href="#">微雕工艺</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a class="t">传承</a>
+					<div class="nhidden">
+						<ul class="subnav p3">
+							<li><a href="html/非遗传承人/非遗传承人.html">非遗传承人</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a class="t">文创</a>
+					<div class="nhidden">
+						<ul class="subnav p4">
+							<li><a href="html/文创/文创专馆.html">文创产品</a></li>
+							<li><a href="html/文创/文创书籍.html">参考书籍</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a class="t">关于</a>
+					<div class="nhidden">
+						<ul class="subnav p5">
+							<li><a href="html/政策/总说.html">总说</a></li>
+							<li><a href="html/政策/用户须知.html">政策</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="login">
+				<a href="html/注册登录个人中心/登录.html" class="iconfont icon-denglu-copy login-icon"></a>
+			</div>
+		</div>
+		<div id="banner">
+			<div class="banner-background">
+				<img src="img/banner/banner雕塑.png"/>
+			</div>
+			<img src="img/banner/banner雕塑.png" class="banner"/>
+			<img src="img/banner/banner叶雕.png" class="banner" style="opacity:0;"/>
+			<img src="img/banner/banner剪纸.png" class="banner" style="opacity:0;"/>
+			<img src="img/banner/banner紫砂3.png" class="banner" style="opacity:0;"/>
+			<div class="prev" id="prev">
+				<span class="iconfont icon-iconfontshangyiye"></span>
+			</div>
+			<div class="next" id="next">
+				<span class="iconfont icon-iconfontxiayiye"></span>
+			</div>
+			<div id="button">
+				<ul>
+					<li class="select" onclick="show(0)"></li>
+					<li onclick="show(1)"></li>
+					<li onclick="show(2)"></li>
+					<li onclick="show(3)"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="connect">
+			<div class="report" id="report">
+				<div class="report-top">
+					<div class="report-title">专题报道</div>
+					<a href="html/专题/专题浏览.html"><div class="report-more"></div></a>
+					<div class="report-line"></div>
+					<div class="report-content">
+						<ul>
+							<li>
+								<a href="html/专题/传统手工艺品的发展前景.html">
+									<img src="img/logo/标注.png" class="report-icon"/>
+									<div class="rpt-smalltitle" title="传统手工艺品的发展前景">传统手工艺品的发展前景</div>
+								</a>
+							</li>
+							<li>
+								<a href="html/专题/让传统技艺 在创新中传承.html">
+									<img src="img/logo/标注.png" class="report-icon"/>
+									<div class="rpt-smalltitle" title="让传统技艺 在创新中传承">让传统技艺 在创新中传承</div>
+								</a>
+							</li>
+							<li>
+								<a href="html/专题/把传统技艺融入当下生活.html">
+									<img src="img/logo/标注.png" class="report-icon"/>
+									<div class="rpt-smalltitle" title="用面塑还原《清明上河图》，于启全——把传统技艺融入当下生活（为梦想奔跑）">用面塑还原《清明上河图》，于启全——把传统技艺融入当下生活（为梦想奔跑）</div>
+								</a>
+							</li>
+							<li>
+								<a href="html/专题/传统技艺焕发时代魅力.html">
+									<img src="img/logo/标注.png" class="report-icon"/>
+									<div class="rpt-smalltitle" title="传统技艺焕发时代魅力">传统技艺焕发时代魅力</div>
+								</a>
+							</li>
+							<li>
+								<a href="html/专题/探访宁夏叶雕传承人.html">
+									<img src="img/logo/标注.png" class="report-icon"/>
+									<div class="rpt-smalltitle" title="探访宁夏叶雕传承人：“盘活”中国古老传统民间艺术">探访宁夏叶雕传承人：“盘活”中国古老传统民间艺术</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="region-title">
+					<img src="img/logo/指引.png"/>
+				</div>
+				<div class="region-text">地域分布</div>
+				<div class="region-next">
+					<img src="img/logo/指示.png"/>
+				</div>
+			</div>
+			<div class="china-map" id="地图">
+				<img src="img/map/1.jpg" class="mapbg"/>
+				<img src="img/map/png77.png"/>
+				<div class="region region-shx">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">山西</div>
+					</div>
+					<div class="position shx">
+						<div class="position1">剪纸|皮影</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-hn">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">湖南</div>
+					</div>
+					<div class="position hn">
+						<div class="position1">湘绣</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-js">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">江苏</div>
+					</div>
+					<div class="position js">
+						<div class="position1">苏绣|雕刻|紫砂</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-gd">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">广东</div>
+					</div>
+					<div class="position gd">
+						<div class="position1">粤绣|剪纸|雕刻</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-sd">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">山东</div>
+					</div>
+					<div class="position sd">
+						<div class="position1">剪纸|风筝</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-sx">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">陕西</div>
+					</div>
+					<div class="position sx">
+						<div class="position1">剪纸|编织</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-sc">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">四川</div>
+					</div>
+					<div class="position sc">
+						<div class="position1">蜀绣</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+				<div class="region region-zj">
+					<div class="dotbor">
+						<div class="dot"></div>
+						<div class="place place01"></div>
+						<div class="place place02"></div>
+						<div class="txt">浙江</div>
+					</div>
+					<div class="position zj">
+						<div class="position1">剪纸|皮影</div>
+						<div class="position2"></div>
+					</div>
+				</div>
+			</div>
+			<div class="seven">
+				<div class="series" id="series">
+					<div class="inheritance">手艺传承</div>
+					<div class="border">
+						<img src="img/logo/边框.png"/>
+					</div>
+					<ul>
+						<a href="html/手艺/刺绣.html">
+							<li class="first">
+								<img src="img/series/刺绣1.png">
+								<div class="ser-title">刺绣工艺</div>
+							</li>
+						</a>
+						<a href="html/手艺/剪纸.html">
+							<li>
+								<img src="img/series/剪纸1.png">
+								<div class="ser-title">剪纸工艺</div>
+							</li>
+						</a>
+						<a href="html/手艺/紫砂.html">
+							<li class="mid pic">
+								<img src="img/series/紫砂1.png">
+								<div class="ser-title">紫砂工艺</div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="pic">
+								<img src="img/series/风筝1.png">
+								<div class="ser-title">风筝工艺</div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="pic">
+								<img src="img/series/皮影1.png">
+								<div class="ser-title">皮影工艺</div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="bot pic">
+								<img src="img/series/编织1.png">
+								<div class="ser-title">编织工艺</div>
+							</li>
+						</a>
+						<a href="#">
+							<li class="pic">
+								<img src="img/series/微雕1.png">
+								<div class="ser-title">微雕工艺</div>
+							</li>
+						</a>
+					</ul>
+					<div class="ser-intro">
+						<div class="ser-text">
+							民间艺术是针对学院派艺术、文人艺术的概念提出来的。广义上说，民间艺术是劳动者为满足自己的生活和审美需求而创造的艺术，包括了民间工艺美术、民间音乐、民间舞蹈和戏曲等多种艺术形式；狭义上说，民间艺术指的是民间造型艺术，包括了民间美术和工艺美术各种表现形式。按照材质分类，有纸、布、竹、木、石、皮革、金属、面、泥、陶瓷、草柳、棕藤、漆等不同材料制成的各类民间手工艺品。它们以天然材料为主，就地取材，以传统的手工方式制作，带有浓郁的地方特色和民族风格，与民俗活动密切结合，与生活密切相关。一年中的四时八节等岁时节令、从出生到死亡的人生礼仪、衣食住行的日常生活中都有民间艺术的陪伴。
+						</div>
+						<img src="img/logo/圆底左侧1.png">
+					</div>
+				</div>
+			</div>
+			<div class="culture" id="culture">
+				<ul>
+					<li id="top">
+						<a href="html/文创/紫砂壶.html">
+							<img src="img/culture/紫砂壶.jpg"/>
+							<div class="title">
+								<div class="font">宜兴泡茶西施紫砂壶</div>
+								<p>标价：150元</p>
+							</div>
+							<div class="background"></div>
+						</a>
+					</li>
+					<li id="down">
+						<a href="html/文创/双面绣扇子.html">
+							<img src="img/culture/双面绣扇子.jpg"/>
+							<div class="title">
+								<div class="font">苏绣十字绣古风海棠团扇</div>
+								<p>标价：50元</p>
+							</div>
+							<div class="background"></div>
+						</a>
+					</li>
+					<li id="top">
+						<a href="html/文创/印章.html">
+							<img src="img/culture/印章.jpg"/>
+							<div class="title">
+								<div class="font">纯银檀木祥云文创礼品</div>
+								<p>标价：1500元</p>
+							</div>
+							<div class="background"></div>
+						</a>
+					</li>
+				</ul>
+				<div class="culture-title">
+					<div class="culture-logo">
+						<img src="img/logo/文创馆.png"/>
+					</div>
+					<div class="culture-text">文创专馆</div>
+				</div>
+			</div>
+			<div class="reputation">
+				<div class="reputation-title">非遗传承人</div>
+				<div class="reputation-pic">
+					<a href="html/非遗传承人/非遗传承人.html"><img src="img/logo/指示.png"/></a>
+				</div>
+				<div id="reputation">
+					<ul>
+						<li>
+							<a href="html/非遗传承人/陶瓷_徐增峰.html">
+								<img src="img/reputation/徐增峰.jpg"/>
+								<div class="reputation-text">陶瓷技艺传承人</div>
+								<div class="reputation-text">徐增峰</div>
+							</a>
+						</li>
+						<li>
+							<a href="html/非遗传承人/剪纸_杜锦斌.html">
+								<img src="img/reputation/杜锦斌.png"/>
+								<div class="reputation-text">剪纸高级传承人</div>
+								<div class="reputation-text">杜锦斌</div>
+							</a>
+						</li>
+						<li>
+							<a href="html/非遗传承人/紫砂_沈云兰.html">
+								<img src="img/reputation/沈云兰.jpg"/>
+								<div class="reputation-text">紫砂技艺传承人</div>
+								<div class="reputation-text">沈云兰</div>
+							</a>
+						</li>
+						<li>
+							<a href="html/非遗传承人/陶瓷_郑思伟.html">
+								<img src="img/reputation/郑思伟.png"/>
+								<div class="reputation-text">陶瓷技艺传承人</div>
+								<div class="reputation-text">郑思伟</div>
+							</a>
+						</li>
+						<li>
+							<a href="html/非遗传承人/紫砂_陈光德.html">
+								<img src="img/reputation/陈光德.png"/>
+								<div class="reputation-text">紫砂高级传承人</div>
+								<div class="reputation-text">陈光德</div>
+							</a>
+						</li>
+						<li>
+							<a href="html/非遗传承人/工艺_金龙.html">
+								<img src="img/reputation/金龙.jpg"/>
+								<div class="reputation-text">玉石雕刻艺术大师</div>
+								<div class="reputation-text">金龙</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footertop"></div>
+		<div class="footer">
+			<div class="footer-logo">
+				<img src="img/logo/logo大.png"/>
+			</div>
+			<ul>
+				<li><a href="html/政策/网站地图.html">网站地图</a></li>
+				<li><a href="html/政策/用户须知.html#隐私政策">隐私政策</a></li>
+				<li><a href="html/政策/版权声明.html">版权声明</a></li>
+				<li><a href="html/政策/留言板.html">留言板</a></li>
+				<li><a href="html/政策/联系我们.html">联系我们</a></li>
+			</ul>
+			<div class="foot">
+				<div class="foot1">中ICP备00000000号-0 | 公网安备0000000000号</div>
+				<div class="foot1">版权所有：北极星 | 电子邮箱：**********@163.com</div>
+			</div>
+		</div>
+		<div id="gotop">
+			<img src="img/logo/置顶.png"/>
+		</div>
+	</body>
+</html>
